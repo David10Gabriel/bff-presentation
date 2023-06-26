@@ -11,28 +11,25 @@ section::after {
 </style>
 <!-- class: invert -->
 
-# Simplificando o Front-end com BFF\*
+# 🤝 Simplificando o Front-end com BFF
 
-## \*Significa Back-end For Front-end
-
----
-
-## Introdução
-
-1. A importância da separação entre front-end e back-end em aplicações web.
-<!--
-
-- A separação é importante pois proporciona modularidade e especialização de código.
-
-- Especialização: O front-end deve forcar em prover uma boa experiência ao usuário e o back-end em gerir lógicas de negócio e guardar e processar as informações.
-
-- Na TerraMagna, historicamente o front-end sempre teve muita lógica embutida, e isso borra os limites entre o que deve ser feito no back e o que deve ser feito no front, além de aumentar a complexidade do que se tem no front-end -->
-
-2. BFF como uma abordagem para otimizar a comunicação entre front-end e back-end e reduzir complexidade aplicada no front-end.
+### _Backend For Frontend_
 
 ---
 
-## O que é BFF (Back-end For Front-end)?
+## 📌 Tópicos
+
+- 🤔 O que é BFF?
+- 🚀 Quais problemas resolve?
+- 👍 Vantagens
+- 👎 Desvantagens
+- 🏢 Quem usa?
+- ✨ Conclusão
+- 📚 Bibliografia
+
+---
+
+## 🤔 O que é BFF?
 
 ![bg fit right](./images/structure.png)
 
@@ -65,7 +62,7 @@ Quando o front-end precisa enviar informações para o back-end, o BFF pode ter 
 
 ---
 
-## Problemas resolvidos pelo BFF
+## 🚀 Quais problemas resolve?
 
 1. Over-fetching e under-fetching de dados
 <!-- 1. Só trafega o que o front realmente precisa -->
@@ -79,7 +76,7 @@ Quando o front-end precisa enviar informações para o back-end, o BFF pode ter 
 
 ---
 
-## Como o BFF ajuda a diminuir a complexidade do código no front
+## 👍 Vantagens
 
 1. Agregação de dados
 
@@ -92,7 +89,7 @@ Quando o front-end precisa enviar informações para o back-end, o BFF pode ter 
 
 ---
 
-## Como o BFF ajuda a diminuir a complexidade do código no front
+## 👍 Vantagens
 
 3. Exposição de endpoints customizados e lógica de negócio no BFF
 
@@ -103,7 +100,7 @@ Quando o front-end precisa enviar informações para o back-end, o BFF pode ter 
 
 ---
 
-## Tá, mas quais os tradeoffs?
+## 👎 Desvantagens
 
 1. Complexidade adicional, uma nova camada
 
@@ -116,7 +113,7 @@ Quando o front-end precisa enviar informações para o back-end, o BFF pode ter 
 
 ---
 
-## Tá, mas quais os tradeoffs?
+## 👎 Desvantagens
 
 3. Potencial SPOF (Single Point Of Failure)
 
@@ -127,7 +124,7 @@ Quando o front-end precisa enviar informações para o back-end, o BFF pode ter 
 
 ---
 
-## Exemplos de uso do BFF na indústria
+## 🏢 Quem usa?
 
 Usado por
 
@@ -142,7 +139,7 @@ Recomendado por
 
 ---
 
-## Conclusão
+## ✨ Conclusão
 
 - Implementar BFF pode simplificar muito o front, removendo muita lógica do mesmo, e deixando-o focado em uma boa experiência para o usuário.
 - Deixa a comunicação do front com o back mais otimizada.
@@ -164,7 +161,7 @@ Mas...
 
 ---
 
-## Bibliografia
+## 📚 Bibliografia
 
 - [Pattern: Backends For Frontends](https://samnewman.io/patterns/architectural/bff/)
 - [The BFF Pattern (Backend for Frontend): An Introduction](https://blog.bitsrc.io/bff-pattern-backend-for-frontend-an-introduction-e4fa965128bf)
