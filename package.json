@@ -1,0 +1,27 @@
+{
+  "name": "bff-presentation",
+  "version": "1.0.0",
+  "description": "A simple presentation about Back-end For Frontend using Marp",
+  "main": "index.md",
+  "scripts": {
+    "preview": "npx marp --preview index.md",
+    "marp": "npx marp",
+    "export": "npx marp index.md output.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/David10Gabriel/bff-presentation.git"
+  },
+  "keywords": [
+    "BFF"
+  ],
+  "author": "David10Gabriel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/David10Gabriel/bff-presentation/issues"
+  },
+  "homepage": "https://github.com/David10Gabriel/bff-presentation#readme",
+  "devDependencies": {
+    "@marp-team/marp-cli": "^3.0.2"
+  }
+}
