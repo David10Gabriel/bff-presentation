@@ -6,7 +6,8 @@
   "scripts": {
     "preview": "npx marp --preview index.md",
     "marp": "npx marp",
-    "export": "npx marp index.md output.html"
+    "export": "npx marp index.md output.html",
+    "export-pdf": "npx marp index.md --pdf --allow-local-files"
   },
   "repository": {
     "type": "git",
