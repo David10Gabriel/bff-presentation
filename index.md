@@ -14,7 +14,6 @@ img[alt~="center"] {
   margin: 0 auto;
 }
 </style>
-<!-- class: invert -->
 
 # 🤝 Simplificando o frontend com BFF
 
@@ -38,7 +37,7 @@ img[alt~="center"] {
 
 - Como conhecemos:
 
-![](images/abordagem-tradicional.png)
+![](images/gateway.png)
 
 ---
 
